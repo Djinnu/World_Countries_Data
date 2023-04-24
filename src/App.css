@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;500&display=swap');
+
+* {
+    font-family: 'Roboto Slab', serif;
+    padding:0;
+    margin:0;
+}
+
+.countryCard {
+    transition: all 0.15s ease-in-out;
+    padding: 1%;
+}
+
+.countryCard:hover {
+    transform: scale3d(1.05, 1.05, 1)
+}
+
+.countryName {
+    text-align: center;
+    font-size: 24px;
+    color: #e65100;
+}
+
+.keys {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.values {
+    font-size: 24px;
+}
+
+/*Graph styles*/
+.graph-container {
+    font-size: 24px;
+    letter-spacing: 0;
+    display: grid;
+    grid-template-columns: 180px 600px 200px;
+    grid-template-rows: repeat(11, 1fr);
+    row-gap: 15px;
+    column-gap: 10px;
+}
+
+.bar {
+    background: #e65100;
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+}
+  
+.country {
+    text-align: left;
+}
+
+.count {
+    text-align: center;
+}
+
+.MuiSvgIcon-root:hover {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 0.5% 1.5%;
+    background-color: #e65100;
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+    margin: 0 0.5% 2%;
+    border-style: none;
+    cursor: pointer;
+}
